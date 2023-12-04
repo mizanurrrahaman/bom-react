@@ -1,0 +1,120 @@
+#inquiry{
+    padding: 128px 0;
+ }
+ .inquiry_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .inquiry_img{
+    width: 656px;
+    height: 691px;
+    overflow: hidden;
+    position: relative;
+ }
+ .inquiry_img picture{
+    width: inherit;
+    height: inherit;
+ }
+ .inquiry_img img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .inquiry_img .overlay{
+    background-color: rgba(47, 48, 94, 0.432);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 96px;
+    top: 0;
+    left: 0;
+    transition: all linear 0.6s;
+ }
+ .inquiry_img .overlay h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 75px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 464px;
+    padding-bottom: 24px;
+ }
+
+ .inquiry_img .overlay p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 464px;
+ }
+
+ .inquiry_from{
+    width: 624px;
+    height: 691px;
+    background-color: #1C1E53;
+    padding: 96px 96px 48px 96px;
+
+ }
+ .inquiry_from h4{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 432px;
+ }
+ .inquiry_from p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 432px;
+    padding: 16px 0 40px 0;
+ }
+
+ .inquiry_from form input{
+    font-size: 16px;
+    padding: 18px 295px 18px 32px;
+    opacity: 0.5;
+    height: 65px;
+    background-color: transparent;
+    border: 1.5px solid rgba(119, 36, 36, 0.5);
+    color: #F4F6FC;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+    line-height: 28px;
+ }
+ .inquiry_from form button{
+    height: 64px;
+    background-color: #FCD980;
+    width: 432px;
+    border: none;
+    border-radius: 41px;
+    margin-top: 23px;
+    font-weight: 600;
+    left: 32px;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    color: #1B1C2B;
+ }
+ .inquiry_from a{
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+   line-height: 32px;
+   margin-top: 28px;
+   display: block;
+   color: #FFFFFF;
+   font-family: 'Poppins', sans-serif;
+ }

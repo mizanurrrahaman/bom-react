@@ -1,0 +1,119 @@
+#footer{
+    background-color: #1C1E53;
+    padding-top: 100px;
+ }
+.footer_wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+ .footer_item h3{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+
+ }
+ .footer_item p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    line-height: 28px;
+    padding-top: 28px;
+ }
+
+ .footer_list h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+ }
+ .footer_list p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    padding: 14px 0 28px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 400px;
+ }
+ .footer_icon{
+    display: flex;
+    column-gap:28px;
+ }
+ .footer_icon .icon{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    font-size: 25px;
+    color: #FFFFFF;
+    border-radius: 30px;
+
+ }
+ .footer_service{
+    padding-top: 10px;
+    background-color: #FCD980;
+    width: 517px;
+ }
+ .footer_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+ }
+ .footer_contact h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    text-transform: capitalize;
+    padding: 18px 0 5px 37px;
+ }
+ .footer_contact a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    text-transform: capitalize;
+    padding: 0 0 16px 37px;
+    opacity: 0.9;
+ }
+.footer_nav{
+    background-color: #FFFFFF;
+
+}
+.footer_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 80px 32px 160px;
+}
+.footer_menu ul{
+  display: flex;
+  column-gap: 32px;
+  padding-right: 80px;
+}
+.footer_add h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    width: 341px;
+}
+.footer_menu ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}

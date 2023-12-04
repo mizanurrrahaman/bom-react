@@ -1,0 +1,53 @@
+#banner{
+    background-color: rgba(0, 0, 0, 0.725);
+    padding: 120px 0;
+    }
+    
+    .banner_wrapper{
+        display: flex;
+        align-items: center;
+        column-gap: 60px;
+    }
+    .banner_content {
+        width: 582px;
+    }
+    
+    .banner_content h1{
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 74px;
+        text-transform: capitalize;
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        width: 582px;
+        padding-bottom: 24px;
+    
+    }
+    .banner_content p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-transform: capitalize;
+        padding-bottom: 48px;
+        width: 562px;
+        color: #FFF;
+    }
+    
+    .banner_btn{
+        width: 638px;
+    }
+    .banner_btn a{
+        padding: 16px 56px;
+        background-color: #FCD980;
+        border-radius: 40px;
+        font-weight: 600;
+        font-family: 'Manrope', sans-serif;
+        font-size: 18px;
+        line-height: 36px;
+        color: #1B1C2B;
+    }
+    .banner_btn a:last-child{
+        background-color: transparent;
+        color: #FFF;
+    }
